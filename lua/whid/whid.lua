@@ -32,4 +32,3 @@ local function open_window()
   -- and finally create it with buffer attached
   win = api.nvim_open_win(buf, true, opts)
 end
-
